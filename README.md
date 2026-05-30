@@ -46,3 +46,57 @@ A C++ program that reads binary data (0s and 1s) from a file, stores it using **
 
 ## 📂 Input File Format
 Create a `.txt` file containing only binary digits:
+
+
+0110111101110001
+
+
+> ⚠️ Ensure there are no spaces or invalid characters.
+
+---
+
+## 📤 Sample Output
+
+
+Enter file name: data.txt
+Maximum consecutive ones: 1111
+Starting index: 4
+Length: 4
+
+
+---
+
+## ▶️ How to Run
+
+### 🖥️ Visual Studio
+1. Create **C++ Empty Project**
+2. Add `main.cpp`
+3. Create `data.txt` in **Debug folder**
+4. Run using **Ctrl + F5**
+5. Enter file name when prompted
+
+---
+
+### 💻 VS Code
+```bash
+g++ main.cpp -o output
+./output
+🖱️ Dev C++
+Open project
+Place data.txt in same folder
+Press F11
+📁 Project Structure
+consecutive-ones-finder/
+├── main.cpp
+├── data.txt
+└── README.md
+⚠️ Important Notes
+Input must contain only 0 and 1
+No spaces allowed in file
+File must be in same directory as executable
+Dynamic memory is properly deallocated using delete[]
+👩‍💻 Author
+
+Aqsa Ismail
+GitHub: aqsaismail04
+LinkedIn: Profile
